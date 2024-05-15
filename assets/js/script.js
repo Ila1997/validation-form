@@ -75,6 +75,7 @@ function validateForm() {
     }, 3000);
     return false;
   } else {
-    return 'Successful request!';
+    alert('Successful request!');
+    return true;;
   }
 }
